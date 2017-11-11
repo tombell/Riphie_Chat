@@ -1,0 +1,7 @@
+## Interface: 70200
+
+## Title: |cff1784d1Riphie |r|cfffb4f4fChat|r
+## Author: Riphie
+
+config.lua
+core.lua
