@@ -141,6 +141,9 @@ BNToastFrame:SetClampRectInsets(-15,15,15,-15)
 ChatFrameMenuButton:HookScript("OnShow", ChatFrameMenuButton.Hide)
 ChatFrameMenuButton:Hide()
 
+ChatFrameChannelButton:HookScript("OnShow", ChatFrameChannelButton.Hide)
+ChatFrameChannelButton:Hide()
+
 local button = QuickJoinToastButton or FriendsMicroButton
 button:HookScript("OnShow", button.Hide)
 button:Hide()
