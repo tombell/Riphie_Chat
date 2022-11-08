@@ -67,10 +67,10 @@ end
 
 local DefaultSetItemRef = SetItemRef
 function SetItemRef(link, ...)
-  local type, value = link:match "(%a+):(.+)"
+  local type, value = link:match("(%a+):(.+)")
 
   if IsAltKeyDown() and type == "player" then
-    InviteUnit(value:match "([^:]+)")
+    InviteUnit(value:match("([^:]+)"))
   elseif type == "url" then
     local eb = LAST_ACTIVE_CHAT_EDIT_BOX or ChatFrame1EditBox
 
