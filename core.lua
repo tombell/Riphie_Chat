@@ -9,8 +9,6 @@ local function ApplyStyle(self)
   local name = self:GetName()
 
   self:SetClampRectInsets(0, 0, 0, 0)
-  self:SetMaxResize(UIParent:GetWidth() / 2, UIParent:GetHeight() / 2)
-  self:SetMinResize(100, 50)
   self:SetFont(unpack(cfg.chat.font))
   self:SetShadowOffset(unpack(cfg.dropshadow.offset))
   self:SetShadowColor(unpack(cfg.dropshadow.color))
