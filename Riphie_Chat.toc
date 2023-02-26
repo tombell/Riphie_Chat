@@ -1,6 +1,6 @@
 ## Interface: 100000
 
-## Title: |cff1784d1Riphie |r|cfffb4f4fChat|r
+## Title: Riphie Chat
 ## Author: Riphie
 
 config.lua
