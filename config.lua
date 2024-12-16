@@ -1,4 +1,9 @@
-local A, L = ...
+local _, L = ...
+
+local LibStub = LibStub
+local LSM = LibStub "LibSharedMedia-3.0"
+
+local font = LSM:Fetch("font", "Expressway")
 
 L.cfg = {
   dropshadow = {
@@ -7,10 +12,10 @@ L.cfg = {
   },
 
   editbox = {
-    font = { STANDARD_TEXT_FONT, 12, "OUTLINE" },
+    font = { font, 13, "OUTLINE" },
   },
 
   chat = {
-    font = { STANDARD_TEXT_FONT, 12, "OUTLINE" },
+    font = { font, 13, "OUTLINE" },
   },
 }
