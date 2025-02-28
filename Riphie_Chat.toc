@@ -3,6 +3,7 @@
 
 ## Title: Riphie Chat
 ## Author: Riphie
+## Category-enUS: Riphie
 ## IconTexture: Interface\AddOns\Riphie_Chat\media\monkey.tga
 
 config.lua
